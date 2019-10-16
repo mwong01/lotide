@@ -14,7 +14,6 @@ const findKeyByValue = function(obj, value) {
   }
 };
 
-findKeyByValue();
 
 // TEST CODE
 
