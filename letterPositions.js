@@ -1,17 +1,22 @@
-// const countLetters = function(str) {
-//   let count = {};
-//   console.log(str);
-//   let strNew = str.split(" ").join("").toLowerCase();
-//   for (let i = 0; i < strNew.length; i++) {
-//     let char = strNew.charAt(i);
-//     if (count[char]) {
-//       count[char]++;
-//     } else {
-//       count[char] = 1;
-//     }
-//   }
-//   return count;
-// };
+const eqArrays = function(arr1, arr2) {
+  if (arr1.length !== arr2.length)
+    return false;
+  for (let i = arr1.length; i--;) {
+    if (arr1[i] !== arr2[i]) {
+      return false;
+    }
+  }
+  return true;
+};
+
+const assertArraysEqual = function (arr1, arr2) {
+  if (eqArrays(arr1, arr2)) {
+    console.log(`✅✅✅ ${arr1} === ${arr2}`)
+  } else {
+    console.log(`🛑🛑🛑 ${arr1} !== ${arr2}`)
+  }
+}
+
 
 const letterPositions = function(sentence) {
   const results = {};
@@ -36,4 +41,5 @@ const letterPositions = function(sentence) {
 };
 
 // TEST CODE
-console.log(letterPositions("lighthouse in the house"));
+// console.log(letterPositions("hello"));
+assertArraysEqual(letterPositions("hello").e, [1]);
