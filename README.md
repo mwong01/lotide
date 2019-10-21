@@ -38,4 +38,8 @@ The following functions are currently implemented:
 * `flatten`: merge arrays of arrays into one array
 * `head`: returns first item in an array
 * `letterPositions`: identifies position of letter within a sentence
-* `map`: given array and callback, determines 
+* `map`: takes array and callback that will return the modified array with callback function applied
+* `middle`: returns middle element(s) of an array
+* `tail`: returns new array with the first index element removed from original array
+* `takeUntil`: takes array and callback that will retrun all elements that match until the one that does not match
+* `without`: takes an array and value of an array, which returns a new array with those array elements removed
