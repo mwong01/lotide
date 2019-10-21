@@ -41,3 +41,5 @@ const results2 = takeUntil(data2, x => x === ',');
 // Test with assertArraysEqual
 assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]);  // true
 assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Redwood' ]);  // false
+
+module.exports = takeUntil;

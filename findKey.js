@@ -36,3 +36,5 @@ assertEqual(actual2, expected2);  // false
 let actual3 = findKey(findKeyData, x => x.stars === 2222);
 let expected3 = "noma";
 assertEqual(actual3, expected3);  // false
+
+module.exports = findKey;

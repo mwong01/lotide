@@ -38,3 +38,5 @@ assertArraysEqual(results2, [ 'GROUND', 'CONTROL', 'TO', 'MAJOR', 'TOM' ])  // t
 const results3 = map(words, word => `${word}ING`);
 console.log(results3);
 assertArraysEqual(results3, [ 'g', 'c', 't', 'm', 't' ]) // false
+
+module.exports = map;

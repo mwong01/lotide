@@ -25,3 +25,5 @@ const countLetters = function(str) {
 // TEST CODE
 console.log(assertEqual(countLetters("lighthouse in the house")["l"], 1));
 console.log(assertEqual(countLetters("lighthouse in the house")["g"], 3));
+
+module.exports = countLetters;

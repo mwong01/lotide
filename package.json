@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@mwong01/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mini clone of the lotide library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/mwong01/lotide.git"
   },
-  "author": "",
+  "author": "Matthew Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mwong01/lotide/issues"
