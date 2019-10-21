@@ -8,25 +8,6 @@ const map = function(array, callback) {
   return results;
 }
 
-// const map = function(array, callback) {
-//   // temporary code:
-//   console.log('array: ', array);
-//   console.log('callback: ', callback);
-
-//   const results = [];
-//   return results;
-// }
-
-// const map = function(array, callback) {
-//   const results = [];
-//   for (let item of array) {
-//     console.log('item BEFORE: ', item);
-//     console.log('item AFTER: ', callback(item));
-//     console.log('---');
-//   }
-//   return results;
-// }
-
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length)
     return false;
